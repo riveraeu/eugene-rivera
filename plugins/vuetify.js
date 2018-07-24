@@ -3,9 +3,9 @@ import Vuetify from 'vuetify'
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#2196F3',
-    secondary: '#4CAF50',
-    accent: '#FF9800',
+    primary: '#2C3E50',
+    secondary: '#EEEEEE',
+    accent: '#E71D36',
     error: '#b71c1c'
   }
 })

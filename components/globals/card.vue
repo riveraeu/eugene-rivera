@@ -1,15 +1,15 @@
 <template>
   <v-flex sm4>
-    <v-card>
-      <v-card-media :src="icon" height="10vh" contain>
+    <v-card height="60vh" class="ma-3">
+      <v-card-media :src="icon" height="15vh" contain>
       </v-card-media>
       <v-card-title primary-title>
         <v-spacer></v-spacer>
-        <div class="display-1">{{title}}</div>
+        <div class="sub-header display-1">{{title}}</div>
         <v-spacer></v-spacer>
       </v-card-title>
       <v-card-text>
-        <div class="">{{text}}</div>
+        <div class="body-text text-xs-center">{{text}}</div>
       </v-card-text>
     </v-card>
   </v-flex>

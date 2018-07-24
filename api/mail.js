@@ -28,7 +28,7 @@ router.post('/', (req, res, next) => {
   `
 
   let transporter = nodemailer.createTransport({
-    host: '',
+    host: 'smtp.gmail.com',
     port: 587,
     secure: false,
     auth: {
