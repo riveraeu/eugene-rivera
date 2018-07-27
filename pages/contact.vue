@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div class="mail-background mb-5">
-      <v-container>
-        <v-layout align-center column justify-center>
-          <h1 class="image-text mt-5">Get in Contact</h1>
-        </v-layout>
-      </v-container>
+    <div class="mt-5">
+      <vue-responsive-image
+        :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532732308/eugene-rivera/mathyas-kurmann-102977-unsplash.jpg'"
+        :image-ratio="3/2"
+        :width-on-screen="100"
+        :image-class="'mail-background'"
+      ></vue-responsive-image>
     </div>
     <v-container>
       <v-layout  row justify-center>
@@ -43,6 +44,7 @@
 </template>
 
 <script>
+import VueResponsiveImage from '~/components/ResponsiveImage.vue'
 export default {
   data () {
     return {
@@ -66,6 +68,9 @@ export default {
       responseMessage: ''
     }
   },
+  components: {
+    VueResponsiveImage
+  },
   methods: {
     async sendMail () {
       if (this.$refs.form.validate()) {
@@ -83,11 +88,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .mail-background {
-    background: url('/mathyas-kurmann-102977-unsplash-min.jpg') center center;
     height: 60vh;
-    background-size: cover;
+    object-fit: cover;
   }
   @media (max-width: 600px) {
     .mail-background {

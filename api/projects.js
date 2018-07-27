@@ -21,7 +21,12 @@ router.get('/:tag', (req, res) => {
   res.req = req
   cloudinary.v2.api.resources_by_tag(req.params.tag, {context: true},
     function(error, result){
-      res.send(result.resources.reverse())
+      result = result.resources.reverse()
+      result.forEach(function(image){
+        var position = 61
+        image.secure_url = image.secure_url.substr(0, position) + "c_scale,%width%,%height%/" + image.secure_url.substr(position)
+      })
+      res.send(result)
     }
   )
 })

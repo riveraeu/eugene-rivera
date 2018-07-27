@@ -9,10 +9,18 @@
           <p class="body-text">{{item.context.custom.long}}</p>
         </v-flex>
         <v-flex v-if="i % 2 !== 0" sm6>
-          <img :src="item.secure_url" alt="image">
+          <vue-responsive-image
+            :image-url="item.secure_url"
+            :image-ratio="2/1"
+            :width-on-screen="100"
+          ></vue-responsive-image>
         </v-flex>
         <v-flex v-if="i % 2 === 0" sm6>
-          <img :src="item.secure_url" alt="image">
+          <vue-responsive-image
+            :image-url="item.secure_url"
+            :image-ratio="2/1"
+            :width-on-screen="100"
+          ></vue-responsive-image>
         </v-flex>
         <v-flex v-if="i % 2 === 0" class="text-xs-center pa-5 projects" sm6>
           <p class="body-text">{{item.context.custom.long}}</p>
@@ -23,11 +31,15 @@
 </template>
 
 <script>
+import VueResponsiveImage from '~/components/ResponsiveImage.vue'
 export default {
   data () {
     return {
       items: []
     }
+  },
+  components: {
+    VueResponsiveImage
   },
   async asyncData ({ app, params }) {
     const res = await app.$axios.$get('api/projects/' + params.project)

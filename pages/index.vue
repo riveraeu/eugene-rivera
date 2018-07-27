@@ -1,13 +1,27 @@
 <template>
   <div class="">
-    <v-parallax src="/hero-image-min.jpg">
-      <v-layout align-center column justify-center>
-        <h1 class="image-text text-xs-center">Rivera Web Solutions</h1>
-      </v-layout>
-    </v-parallax>
+    <v-layout class="mt-5" row>
+      <v-flex xs6>
+        <vue-responsive-image
+          :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649367/eugene-rivera/helloquence-61189-unsplash-min.jpg'"
+          :image-ratio="1840/1203"
+          :width-on-screen="50"
+        ></vue-responsive-image>
+      </v-flex>
+      <v-flex xs6>
+        <vue-responsive-image
+          :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649338/eugene-rivera/ilya-pavlov-87438-unsplash-min.jpg'"
+          :image-ratio="3543/2365"
+          :width-on-screen="50"
+        ></vue-responsive-image>
+      </v-flex>
+    </v-layout>
+    <v-layout align-center column justify-center>
+      <h1 class="image-text text-xs-center primary--text mt-5">Rivera Web Solutions</h1>
+    </v-layout>
     <v-container>
       <v-layout align-center column>
-        <v-flex class="mt-5 pb-5">
+        <v-flex class="mb-5">
           <p class="body-text headline text-xs-center">Modern web solutions for your bussines.
           Founded by Eugene Rivera, Rivera Web Solutions specializes in custom built and designed websites.
           Read about the web building process, view examples of previous projects and get in contact with Eugene today!</p>
@@ -56,7 +70,11 @@
         </v-layout>
         <v-layout row wrap v-for="(project, index) in projects" :key="index">
           <v-flex sm6>
-            <img :src="project.secure_url" alt="hero image">
+            <vue-responsive-image
+              :image-url="project.secure_url"
+              :image-ratio="2/1"
+              :width-on-screen="100"
+            ></vue-responsive-image>
           </v-flex>
           <v-flex class="text-xs-center pa-5 projects" sm6>
             <h1 class="sub-header white--text">{{project.context.custom.title}}</h1>
@@ -67,7 +85,7 @@
       </v-container>
     </div>
       <v-container class="">
-        <v-layout justify-center row wrap>
+        <v-layout justify-center row>
           <h1 class="header mb-5 text-xs-center">About</h1>
         </v-layout>
         <v-layout justify-center row wrap>
@@ -80,7 +98,12 @@
             Being a small new company, allows RWS to uses the latest web technologies to make your sites fast, secure and interactive. </p>
           </v-flex>
           <v-flex sm4>
-            <img src="/about-pic.jpg" alt="about picture">
+            <vue-responsive-image
+              :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532727693/eugene-rivera/about-pic.jpg'"
+              :image-ratio="3/4"
+              :width-on-screen="50"
+              :width-on-screen-smartphone="100"
+            ></vue-responsive-image>
           </v-flex>
         </v-layout>
       </v-container>
@@ -90,6 +113,8 @@
 
 <script>
 import card from '~/components/globals/card.vue'
+import VueResponsiveImage from '~/components/ResponsiveImage.vue'
+
 export default {
   data () {
     return {
@@ -97,7 +122,8 @@ export default {
     }
   },
   components: {
-    card
+    card,
+    VueResponsiveImage
   },
   async asyncData ({ app }) {
     const res = await app.$axios.$get('api/projects/projects')
@@ -107,6 +133,16 @@ export default {
 </script>
 
 <style scoped>
+  .design-background {
+    background: url('/helloquence-61189-unsplash-min.jpg') center center;
+    height: 60vh;
+    background-size: cover;
+  }
+  .development-background {
+    background: url('/ilya-pavlov-87438-unsplash-min.jpg') center center;
+    height: 60vh;
+    background-size: cover;
+  }
   .grey-background {
     background-color: #EEEEEE;
   }
@@ -114,6 +150,12 @@ export default {
     background-color: #2C3E50;
   }
   @media (max-width: 600px) {
+    .design-background {
+      height: 50vh;
+    }
+    .development-background {
+      height: 50vh;
+    }
     .about {
       margin-right: unset !important;
     }

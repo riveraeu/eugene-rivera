@@ -6,7 +6,11 @@
     <div v-for="(project, i) in projects" :key="i">
       <v-layout row wrap>
         <v-flex sm6>
-          <img :src="project.secure_url" alt="hero image">
+          <vue-responsive-image
+            :image-url="project.secure_url"
+            :image-ratio="2/1"
+            :width-on-screen="100"
+          ></vue-responsive-image>
         </v-flex>
         <v-flex class="text-xs-center pa-5 projects" sm6>
           <h1 class="sub-header">{{project.context.custom.title}}</h1>
@@ -19,11 +23,15 @@
 </template>
 
 <script>
+import VueResponsiveImage from '~/components/ResponsiveImage.vue'
 export default {
   data () {
     return {
       projects: []
     }
+  },
+  components: {
+    VueResponsiveImage
   },
   async asyncData ({ app }) {
     const res = await app.$axios.$get('api/projects/projects')

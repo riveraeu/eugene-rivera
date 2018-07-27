@@ -1,6 +1,6 @@
 <template>
   <v-flex sm4>
-    <v-card height="60vh" class="ma-3">
+    <v-card  class="ma-3">
       <v-card-media :src="icon" height="15vh" contain>
       </v-card-media>
       <v-card-title primary-title>
