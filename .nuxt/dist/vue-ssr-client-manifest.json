@@ -1,28 +1,35 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "app.0e78f3135797fe4ce8b2.js",
-    "pages/index.472aa5304021bc85b150.js",
+    "icons/icon_64.ag2Oc3i0QQA.png",
+    "pages/index.f15d6e2b71e6eb3163ad.js",
     "pages/projects/_project.fc7b86fd35f6e5176586.js",
-    "pages/contact.d3fa4fa43488c1f4f967.js",
+    "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.a1748410e377e25c8ffb.js",
     "vendor.cf7d5948efee7dd087bd.js",
-    "pages/projects/index.9d65d0a5e59281d58028.js",
-    "manifest.0ca7b18b0f56e8376666.js",
+    "app.84ec5dd0a9cf74e0a762.js",
+    "manifest.e1c0651e7ea8ee866c39.js",
     "LICENSES",
-    "manifest.71587988.json",
+    "pages/projects/index.9d65d0a5e59281d58028.js",
+    "icons/icon_120.ag2Oc3i0QQA.png",
+    "icons/icon_144.ag2Oc3i0QQA.png",
+    "icons/icon_152.ag2Oc3i0QQA.png",
+    "icons/icon_192.ag2Oc3i0QQA.png",
+    "icons/icon_384.ag2Oc3i0QQA.png",
+    "icons/icon_512.ag2Oc3i0QQA.png",
+    "manifest.a816ff1a.json",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.0ca7b18b0f56e8376666.js",
+    "manifest.e1c0651e7ea8ee866c39.js",
     "vendor.cf7d5948efee7dd087bd.js",
-    "app.0e78f3135797fe4ce8b2.js"
+    "app.84ec5dd0a9cf74e0a762.js"
   ],
   "async": [
-    "pages/index.472aa5304021bc85b150.js",
+    "pages/index.f15d6e2b71e6eb3163ad.js",
     "pages/projects/_project.fc7b86fd35f6e5176586.js",
-    "pages/contact.d3fa4fa43488c1f4f967.js",
+    "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.a1748410e377e25c8ffb.js",
     "pages/projects/index.9d65d0a5e59281d58028.js"
   ],
@@ -34,10 +41,10 @@
       5
     ],
     "62788880": [
-      0
+      6
     ],
     "70584763": [
-      0
+      6
     ],
     "87087898": [
       2
@@ -46,7 +53,7 @@
       5
     ],
     "95d9c4a6": [
-      0
+      6
     ],
     "4849df06": [
       4
@@ -130,7 +137,7 @@
       5
     ],
     "1e228ea2": [
-      0
+      6
     ],
     "0ee55e86": [
       5
@@ -184,7 +191,7 @@
       5
     ],
     "67bee228": [
-      0
+      6
     ],
     "37d21c70": [
       5
@@ -205,7 +212,7 @@
       2
     ],
     "25cbaef4": [
-      0
+      6
     ],
     "0de82a06": [
       2
@@ -214,7 +221,7 @@
       5
     ],
     "7dd46d98": [
-      0
+      6
     ],
     "7f702c36": [
       5
@@ -232,10 +239,10 @@
       5
     ],
     "4bbabb79": [
-      6
+      9
     ],
     "4bc6cc28": [
-      0
+      6
     ],
     "76c4b7e1": [
       5
@@ -277,10 +284,10 @@
       5
     ],
     "8e079ad0": [
-      0
+      6
     ],
     "3c279bba": [
-      6
+      9
     ],
     "4f84b0c8": [
       5
@@ -292,7 +299,7 @@
       5
     ],
     "acc69bd2": [
-      0
+      6
     ],
     "fc699596": [
       4
@@ -325,7 +332,7 @@
       5
     ],
     "2da2dff8": [
-      0
+      6
     ],
     "c1162ef4": [
       5
@@ -340,7 +347,7 @@
       5
     ],
     "7b04ca16": [
-      0
+      6
     ],
     "2c2d7048": [
       5
@@ -355,19 +362,19 @@
       5
     ],
     "2b227fee": [
-      0
+      6
     ],
     "5b01f7b4": [
       3
     ],
     "59094e9a": [
-      6
+      9
     ],
     "6273adf8": [
-      0
+      6
     ],
     "5ad37222": [
-      0
+      6
     ],
     "525a36f1": [
       5
@@ -382,7 +389,7 @@
       5
     ],
     "ed58b224": [
-      0
+      6
     ],
     "17d6c0e0": [
       5
@@ -406,7 +413,7 @@
       5
     ],
     "ddb2a676": [
-      0
+      6
     ],
     "c8519060": [
       5
@@ -418,13 +425,13 @@
       3
     ],
     "a00e10fc": [
-      0
+      6
     ],
     "b3a5a82a": [
       5
     ],
     "f01ac090": [
-      0
+      6
     ],
     "9e097544": [
       5
@@ -538,7 +545,7 @@
       5
     ],
     "64b853c6": [
-      0
+      6
     ],
     "45bfcb99": [
       5
@@ -550,7 +557,7 @@
       5
     ],
     "e84bec7a": [
-      6
+      9
     ],
     "b67433e2": [
       5
@@ -580,7 +587,7 @@
       5
     ],
     "64778f2d": [
-      0
+      6
     ],
     "59be218a": [
       5
@@ -619,10 +626,10 @@
       5
     ],
     "e24f9464": [
-      0
+      6
     ],
     "96ceb646": [
-      0
+      6
     ],
     "28363a40": [
       5
@@ -658,22 +665,22 @@
       5
     ],
     "db5d11d4": [
-      0
+      6
     ],
     "486b2220": [
       1
     ],
     "2355a59e": [
-      0
+      6
     ],
     "25aa45e2": [
-      6
+      9
     ],
     "92bd9ae4": [
       5
     ],
     "3f7f5909": [
-      0
+      6
     ]
   }
 }

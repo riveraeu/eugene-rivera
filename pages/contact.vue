@@ -2,7 +2,7 @@
   <div>
     <div class="mt-5">
       <vue-responsive-image
-        :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532732308/eugene-rivera/mathyas-kurmann-102977-unsplash.jpg'"
+        :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532732308/eugene-rivera/mathyas-kurmann-102977-unsplash.jpg'"
         :image-ratio="3/2"
         :width-on-screen="100"
         :image-class="'mail-background'"

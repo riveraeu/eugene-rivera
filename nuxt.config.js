@@ -35,12 +35,10 @@ module.exports = {
   serverMiddleware: [
     '~/api/projects',
     '~/api/mail',
-  ]
-  /*
+  ],
   axios: {
     baseURL: process.env.BASE_URL,
     browserBaseURL: process.env.BASE_URL,
     https: true
   }
-  */
 }

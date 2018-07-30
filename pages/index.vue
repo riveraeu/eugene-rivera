@@ -3,14 +3,14 @@
     <v-layout class="mt-5" row>
       <v-flex xs6>
         <vue-responsive-image
-          :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649367/eugene-rivera/helloquence-61189-unsplash-min.jpg'"
+          :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649367/eugene-rivera/helloquence-61189-unsplash-min.jpg'"
           :image-ratio="1840/1203"
           :width-on-screen="50"
         ></vue-responsive-image>
       </v-flex>
       <v-flex xs6>
         <vue-responsive-image
-          :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649338/eugene-rivera/ilya-pavlov-87438-unsplash-min.jpg'"
+          :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649338/eugene-rivera/ilya-pavlov-87438-unsplash-min.jpg'"
           :image-ratio="3543/2365"
           :width-on-screen="50"
         ></vue-responsive-image>
@@ -99,7 +99,7 @@
           </v-flex>
           <v-flex sm4>
             <vue-responsive-image
-              :image-url="'http://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532727693/eugene-rivera/about-pic.jpg'"
+              :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532727693/eugene-rivera/about-pic.jpg'"
               :image-ratio="3/4"
               :width-on-screen="50"
               :width-on-screen-smartphone="100"
