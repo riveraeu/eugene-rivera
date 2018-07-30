@@ -133,16 +133,6 @@ export default {
 </script>
 
 <style scoped>
-  .design-background {
-    background: url('/helloquence-61189-unsplash-min.jpg') center center;
-    height: 60vh;
-    background-size: cover;
-  }
-  .development-background {
-    background: url('/ilya-pavlov-87438-unsplash-min.jpg') center center;
-    height: 60vh;
-    background-size: cover;
-  }
   .grey-background {
     background-color: #EEEEEE;
   }
@@ -150,12 +140,6 @@ export default {
     background-color: #2C3E50;
   }
   @media (max-width: 600px) {
-    .design-background {
-      height: 50vh;
-    }
-    .development-background {
-      height: 50vh;
-    }
     .about {
       margin-right: unset !important;
     }

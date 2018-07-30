@@ -2,13 +2,13 @@
   "publicPath": "/_nuxt/",
   "all": [
     "icons/icon_64.ag2Oc3i0QQA.png",
-    "pages/index.f15d6e2b71e6eb3163ad.js",
+    "pages/index.055b0392b864a9ac3b28.js",
     "pages/projects/_project.fc7b86fd35f6e5176586.js",
     "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.a1748410e377e25c8ffb.js",
     "vendor.cf7d5948efee7dd087bd.js",
     "app.84ec5dd0a9cf74e0a762.js",
-    "manifest.e1c0651e7ea8ee866c39.js",
+    "manifest.088308e122c9bd247233.js",
     "LICENSES",
     "pages/projects/index.9d65d0a5e59281d58028.js",
     "icons/icon_120.ag2Oc3i0QQA.png",
@@ -22,12 +22,12 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.e1c0651e7ea8ee866c39.js",
+    "manifest.088308e122c9bd247233.js",
     "vendor.cf7d5948efee7dd087bd.js",
     "app.84ec5dd0a9cf74e0a762.js"
   ],
   "async": [
-    "pages/index.f15d6e2b71e6eb3163ad.js",
+    "pages/index.055b0392b864a9ac3b28.js",
     "pages/projects/_project.fc7b86fd35f6e5176586.js",
     "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.a1748410e377e25c8ffb.js",

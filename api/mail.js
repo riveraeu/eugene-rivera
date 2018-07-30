@@ -29,14 +29,16 @@ router.post('/', (req, res, next) => {
 
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
-    port: 587,
-    secure: false,
+    port: 465,
+    secure: true,
     auth: {
-      user: process.env.EMAIL_USERNAME,
-      pass: process.env.EMAIL_PASSWORD
-    },
-    tls: {
-      rejectUnauthorized: false
+        type: 'OAuth2',
+        user: process.env.EMAIL_USERNAME,
+        clientId: ' 411324782767-je1bfmfphd9cu87duq18kctijqsfcpl5.apps.googleusercontent.com ',
+        clientSecret: '9L1F5eNjjCLo46qUFuLP5N0j',
+        refreshToken: '1/JidgeeodkHGGnlP1hxhxIDiqZl-IH5RlWvgN4BYLX7g',
+        accessToken: 'ya29.GlsIBoiZQWSW4dwb28uR2mfU3VfPBdnm9LhF8HMYy8HrIzP1tsoHWc6lk_CdPi-oTvQWBrKkyAWzDw3YIpeqSRI6C83GFv0SZVcq-aRqnOpJmFaLBq4QuQ6xdSvv',
+        expires: 3600
     }
   })
   let mailOptions = {
