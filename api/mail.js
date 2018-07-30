@@ -2,10 +2,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
 
-// for development, remove when deploying
+/* for development, remove when deploying
 var dotenv = require('dotenv');
 dotenv.load();
-
+*/
 const app = express()
 const router = express.Router()
 
