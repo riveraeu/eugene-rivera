@@ -4,6 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const _b60e5a06 = () => import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */).then(m => m.default || m)
+const _e613deec = () => import('../pages/Acknowledgement.vue' /* webpackChunkName: "pages/Acknowledgement" */).then(m => m.default || m)
 const _a79b9060 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
 const _ebe16c02 = () => import('../pages/projects/_project.vue' /* webpackChunkName: "pages/projects/_project" */).then(m => m.default || m)
 const _3179f982 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
@@ -70,6 +71,11 @@ export function createRouter () {
 			path: "/projects",
 			component: _b60e5a06,
 			name: "projects"
+		},
+		{
+			path: "/Acknowledgement",
+			component: _e613deec,
+			name: "Acknowledgement"
 		},
 		{
 			path: "/contact",

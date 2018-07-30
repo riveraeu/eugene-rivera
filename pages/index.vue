@@ -4,14 +4,14 @@
       <v-flex xs6>
         <vue-responsive-image
           :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649367/eugene-rivera/helloquence-61189-unsplash-min.jpg'"
-          :image-ratio="1840/1203"
+          :image-ratio="3/2"
           :width-on-screen="50"
         ></vue-responsive-image>
       </v-flex>
       <v-flex xs6>
         <vue-responsive-image
           :image-url="'https://res.cloudinary.com/rivera-web-solutions/image/upload/c_scale,%width%,%height%/v1532649338/eugene-rivera/ilya-pavlov-87438-unsplash-min.jpg'"
-          :image-ratio="3543/2365"
+          :image-ratio="3/2"
           :width-on-screen="50"
         ></vue-responsive-image>
       </v-flex>
