@@ -3,13 +3,13 @@
   "all": [
     "icons/icon_64.ag2Oc3i0QQA.png",
     "pages/index.1103c3c6cdec433b6331.js",
-    "pages/projects/_project.fc7b86fd35f6e5176586.js",
+    "pages/projects/_project.4d2d604bc6833951265c.js",
     "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.d97123cef3ed258f884d.js",
     "pages/Acknowledgement.d52eee235eae8987e9c7.js",
     "vendor.6ee552eeb6d0c327b4e4.js",
     "app.8e7fef75d8ac6bab5b95.js",
-    "manifest.5f56f3e99421bed65ef4.js",
+    "manifest.3097fa53aa6e77dbc701.js",
     "LICENSES",
     "pages/projects/index.9d65d0a5e59281d58028.js",
     "icons/icon_120.ag2Oc3i0QQA.png",
@@ -23,13 +23,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.5f56f3e99421bed65ef4.js",
+    "manifest.3097fa53aa6e77dbc701.js",
     "vendor.6ee552eeb6d0c327b4e4.js",
     "app.8e7fef75d8ac6bab5b95.js"
   ],
   "async": [
     "pages/index.1103c3c6cdec433b6331.js",
-    "pages/projects/_project.fc7b86fd35f6e5176586.js",
+    "pages/projects/_project.4d2d604bc6833951265c.js",
     "pages/contact.b41b624489f423ab6848.js",
     "layouts/default.d97123cef3ed258f884d.js",
     "pages/Acknowledgement.d52eee235eae8987e9c7.js",

@@ -27,6 +27,11 @@
         </v-flex>
       </v-layout>
     </div>
+    <v-layout justify-center>
+      <v-flex xs1>
+        <v-btn large raised dark color="primary" :href="items[0].context.custom.link">View Site</v-btn>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
 
